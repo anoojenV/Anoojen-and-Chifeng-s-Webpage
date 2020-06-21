@@ -1,0 +1,196 @@
+/* CSS file Made By: Anoojen*/
+
+
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	font-family: 'Noto Sans', sans-serif;
+	background-color:white
+}
+
+nav {
+	position:fixed;
+	top:0px;
+	left:0px;
+	z-index:10;
+	color:#333333;
+	width:100%;
+	height:60px;
+	background-color:#AAAAAA;
+	opacity:.95;
+}
+
+nav p{
+	font-size:24px;
+	line-height:55px;
+	color:red;
+	float:left;
+	padding:0px 20px;
+	background-color:#AAAAAA;
+}
+
+nav ul { 
+	float:left; 
+}
+
+nav ul li{
+	float:left;
+	list-style:none;
+	position:relative;
+}
+
+nav ul li a{
+	display:block;
+	font-size:14px;
+	padding:22px 35px 19px 20px;
+	text-decoration:none;
+	transition: background-color 0.25s;
+}
+nav ul li ul li{
+	width:180px;
+}
+
+nav ul li ul{
+	display:none;
+	background-color:#AAAAAA;
+	position:absolute;
+}
+
+nav ul li a:hover{
+	color: #222222;
+    background-color: #DDDDDD;
+    opacity: 0.5;
+}
+
+nav ul li:hover ul{
+	display:block;
+}
+
+#header {
+	font-family: 'Noto Sans', sans-serif;
+	font-size:40px;
+	font-weight:normal;
+	padding-top:80px;
+	text-align:center;
+}
+
+.ram {
+	margin-left:340px;
+	height:487px;
+	width:625px;
+	background-image: url('../assets/bg.png');
+	background-size: cover;
+}
+
+h2 {
+	margin-left:320px;
+	padding:20px;
+	font-size:25px;
+	font-weight:normal;
+	width:700px;
+	text-align:center;
+	border-radius:40px;
+	background-color:#D6D6D6
+}
+
+.link {
+	color:blue
+}
+
+.Tlink:visited .link {
+	color:purple
+}
+
+.Tlink:active .link{
+	color:red
+}
+.link:hover{
+	text-decoration:underline
+}
+
+.Tlink {
+	text-decoration:none;
+}
+.Tlink:visited {
+	color:black
+}
+.Tlink:active {
+	color:black
+}
+
+.light{
+	opacity:75%
+}
+
+.lighter{
+	opacity:50%
+}
+
+.generalInfo{
+	margin:80px 0px 0px 549px;
+	text-align:center;
+	border-radius:30px;
+	width:800px;
+	height:120px;
+	font-size:15px;
+	background-color: #78A971;
+}
+
+#overview {
+	width:400px;
+	height:66px;
+}
+
+.DDR_Ram{
+	padding:4px;
+	margin:80px 0px 0px 2px;
+	text-align:left;
+	border-radius:30px;
+	width:600px;
+	height:315px;
+	font-size:15px;
+	background-color: #ff9500;
+}
+
+#DDR4ram {
+	width:193px;
+	height:150px;
+}
+
+.imgTxt {
+	font-size:11px;
+}
+
+.LPDDR_RAM {
+	margin:80px 0px 0px 547px;
+	text-align:center;
+	border-radius:30px;
+	width:800px;
+	height:290px;
+	font-size:15px;
+	background-color: #00FFFF;
+}
+
+#LPDDRram {
+	width:150px;
+	height:100px;
+}
+
+.gddrRam {
+	padding:4px;
+	margin:80px 0px 0px 2px;
+	text-align:left;
+	border-radius:30px;
+	width:600px;
+	height:315px;
+	font-size:15px;
+	background-color: #ff9500;
+}
+
+#GDDRram {
+	width:150px;
+	height:100px;
+}
